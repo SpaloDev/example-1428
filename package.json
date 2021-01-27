@@ -1,0 +1,24 @@
+{
+  "name": "covid-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=covidreport",
+    "watch": "npm-watch start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.1",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "date-utils": "^1.2.21",
+    "dotenv": "^8.2.0",
+    "npm-watch": "^0.7.0"
+  },
+  "watch": {
+    "start": "*.js"
+  }
+}
